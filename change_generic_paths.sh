@@ -7,4 +7,4 @@ CAFFEPATH=$HOME/code/caffe
 find ./*/ -type f -exec sed -i -e s^/home/ubuntu/AdienceFaces^$PWD^g '{}' \;
 
 #change caffe tools path 
-find ./*/ -type f -exec sed -i -e s^/home/ubuntu/repositories^$CAFFEPATH^g '{}' \;
+find ./*/ -type f -exec sed -i -e s^/home/ubuntu/repositories/caffe^$CAFFEPATH^g '{}' \;
