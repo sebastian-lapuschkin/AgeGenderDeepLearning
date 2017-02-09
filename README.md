@@ -23,5 +23,5 @@ Added some scripts to automatically fix paths to your needs and to execute data 
 
         0) Adjust CAFFEPATH in change_generic_paths.sh
         1) run bash change_generic_paths.sh
-        2) Place the Adience data in DATA/aligned  
+        2) Place and extract the data archives downloaded from the Adience data download page in DATA/
         3) run bash run_all_datagen_scripts.sh
