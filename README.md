@@ -21,5 +21,5 @@ The SOFTWARE provided in this page is provided "as is", without any guarantee ma
 ##Changes made in this fork
 Added some scripts to automatically fix paths to your needs and to execute data generation. Assuming you have your data extracted and placed in folder DATA, run files in order:
 
-        1) change_generic_paths.sh
+        1) change_generic_paths.sh <-- You might want to adjust the variable CAFFEPATH
         2) run_all_datagen_scripts.sh
