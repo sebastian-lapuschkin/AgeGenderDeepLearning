@@ -2,9 +2,11 @@
 
 #create necessary folders, since caffe tools do not create paths recursively
 mkdir lmdb
+mkdir mean_image
 for i in {0..4}
 do
 	mkdir lmdb/Test_fold_is_$i
+	mkdir mean_image/Test_fold_is_$i
 done
 
 #run lmdb creation scripts
