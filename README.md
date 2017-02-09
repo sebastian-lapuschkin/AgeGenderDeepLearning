@@ -17,3 +17,9 @@ If you find our models or code useful, please add suitable reference to our pape
 Copyright 2015, Gil Levi and Tal Hassner 
 
 The SOFTWARE provided in this page is provided "as is", without any guarantee made as to its suitability or fitness for any particular use. It may contain bugs, so use of this tool is at your own risk. We take no responsibility for any damage of any sort that may unintentionally be caused through its use. 
+
+##Changes made in this fork
+Added some scripts to automatically fix paths to your needs and to execute data generation. Assuming you have your data extracted and placed in folder DATA, run files in order:
+
+        1) change_generic_paths.sh
+        2) run_all_datagen_scripts.sh
