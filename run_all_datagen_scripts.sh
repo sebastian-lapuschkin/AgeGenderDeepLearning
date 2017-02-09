@@ -24,3 +24,5 @@ echo 'Running MEAN file creation'
 echo ''
 #compute mean files
 find ./*/ -name "make_mean*.sh" -exec bash '{}' \;
+
+echo 'Done'
