@@ -20,4 +20,4 @@ echo ''
 echo 'Unifying LMDB and MEAN file naming patterns'
 echo ''
 #unify path definitions for lmdb and mean_images
-find ./*/ -type f -exec sed -i -e s^/mean_image/Test_folder_is_^/mean_image_Test_fold_is_^g '{}' \;
+find ./*/ -type f -exec sed -i -e s^/mean_image/Test_folder_is_^/mean_image/Test_fold_is_^g '{}' \;
