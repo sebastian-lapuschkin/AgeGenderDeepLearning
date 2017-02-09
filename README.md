@@ -19,7 +19,9 @@ Copyright 2015, Gil Levi and Tal Hassner
 The SOFTWARE provided in this page is provided "as is", without any guarantee made as to its suitability or fitness for any particular use. It may contain bugs, so use of this tool is at your own risk. We take no responsibility for any damage of any sort that may unintentionally be caused through its use. 
 
 ##Changes made in this fork
-Added some scripts to automatically fix paths to your needs and to execute data generation. Assuming you have your data extracted and placed in folder DATA, run files in order:
+Added some scripts to automatically fix paths to your needs and to execute data generation. Assuming you have your data downloaded and available, execute the following steps
 
-        1) change_generic_paths.sh <-- You might want to adjust the variable CAFFEPATH
-        2) run_all_datagen_scripts.sh
+        0) Adjust CAFFEPATH in change_generic_paths.sh
+        1) run bash change_generic_paths.sh
+        2) Place the Adience data in DATA/aligned  
+        3) run bash run_all_datagen_scripts.sh
