@@ -1,3 +1,4 @@
 DATA/
-score_test_output_[0-9]*.txt
-score_val_output_[0-9]*.txt
+models_test_is_*
+score_*_ou*.txt
+
